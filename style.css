@@ -1,0 +1,76 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+p {
+    margin: 0px auto;
+    margin-bottom: 5%;
+    font-size: 50px;
+    
+}
+
+h1{
+    
+    width: auto;
+    margin: 0px auto;
+    margin-bottom: 10%;
+    margin-top: -10px;
+    font-size: 60px;
+}
+
+/* input{
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    background: rgb(221, 144, 0);
+    outline: none;
+    border: none;
+} */
+input[value=START]{
+    width: 120px;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 15px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: none;
+    box-shadow:0px 0px 1px 2px rgb(37, 70, 253);
+}
+
+input[value=STOP]{
+    width: 120px;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 15px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: none;
+    box-shadow:0px 0px 1px 2px rgb(255, 0, 0);
+}
+
+input[value=RESET]{
+    width: 120px;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 15px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: none;
+    box-shadow:0px 0px 1px 2px rgb(0, 177, 0);
+}
+
+input:hover{
+    opacity: 0.9;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.096);
+    color: white;
+    transition: 0.7s;
+}
